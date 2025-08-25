@@ -1,0 +1,19 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*h1{
+    color: darkblue;
+    text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    text-decoration-line: wavy;
+}
+    */
+
+p{
+    color: darkgreen;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: bold;
+    font-family: sans-serif;
+}

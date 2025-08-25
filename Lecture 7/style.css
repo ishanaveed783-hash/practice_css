@@ -1,0 +1,43 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: blue;
+    display: inline-block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    padding: 30px;
+    margin: 0;
+    list-style: none;
+    text-align: end;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid white;
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-align: space-evenly;
+    padding: 20px;
+
+}
+span{
+    color: red;
+    display: inline-block;
+}
+li:hover{
+   color: palevioletred;
+}

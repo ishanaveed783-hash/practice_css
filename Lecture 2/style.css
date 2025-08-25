@@ -1,0 +1,20 @@
+
+body{
+    font-size: 24px;
+}
+/*p:hover{
+    font-family: monospace;
+    */
+
+#first>p {
+    color: blue;
+}
+#first , #second {
+    color: red;
+}
+.purple {
+    color: purple;
+}
+.highlight {
+    background-color: yellow;
+}
