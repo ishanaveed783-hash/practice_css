@@ -152,9 +152,9 @@ header .header-left {
 }
 .features-section {
     padding: 80px var(--padding-inline-section) 0;
-    background-image: url("Usability Hub/imgi_30_asset 34");
-    background-size: cover;       /* optional: makes image cover full section */
-    background-position: center;  /* optional: centers the image */
+    background-image: url("Usability Hub/imgi_30_asset\ 34.svg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .feature-header {
@@ -177,4 +177,36 @@ header .header-left {
 }
 .features-card p{
     text-align: center;
+}
+.features-card img {
+  width: 50px;   /* set your desired width */
+  height: auto;   /* keeps proportion */
+  margin-bottom: 5px;
+}
+.features-card p{
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.big-feature-container{
+    gap: 30px;
+}
+.feature-img img{
+    width: 100%;
+
+}
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.big-features-section {
+  margin-top: 50px;   
+  padding: 30px var(--padding-inline-section) 0;
+}
+.big-features-section h3 {
+  font-size: 32px;   /* increase size (default ~20-24px) */
+  font-weight: 700;  /* make it bold */
+  line-height: 1.3;  /* spacing between lines */
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
