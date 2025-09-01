@@ -4,21 +4,45 @@
       box-sizing: border-box;
     }
 
+    
+    :root{
+      --primary-text-color: #222;
+       --secondary-text-color: #555;
+       --card-background-color: #f4f4f4;
+       --background-color: #eee;
+    }
+    .dark {
+      --primary-text-color: #eee;
+       --secondary-text-color: #ddd;
+       --card-background-color: #444;
+       --background-color: #333;
+    }
+
     .container {
       padding: 40px;
-      --my-var: red; /* define variable */
+      background-color: var(--background-color);
     }
 
     h1 {
       text-align: center;
-      color:  green;
+     color: var(--primary-text-color);
     }
 
     .box {
       padding: 20px; 
-      background-color: var(--my-var); /* 👈 use variable here */
+      background-color: var(--card-background-color);
+      margin: 20px;
+      border-radius: 20px;
+     
+      /* background-color: var(--my-var); /* 👈 use variable here */
     }
 
     .box h2 {
       margin-bottom: 20px;
+      /* background-color: blue; */
+    }
+    @media screen and (max-width: 600px) {
+      .box {
+        background-color: yellow;
+      }
     }

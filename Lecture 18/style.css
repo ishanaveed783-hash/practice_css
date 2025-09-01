@@ -1,0 +1,45 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+}
+.primary-btn:link{
+    color: green;
+}
+.primary-btn:visited{
+    color: purple;
+}
+.primary-btn:hover{
+    color: red;
+}
+.primary-btn:active{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+/*
+ul li:first-child{
+    color: aqua;
+    background-color: black;
+}
+ul li:last-child{
+    color: red;
+    background-color: blue;
+
+}
+    */
+ul li:nth-child(2n){
+background-color: gray;
+}
+h2::first-letter{
+    color: red;
+    font-size: 3rem;
+::selection{
+    background-color: yellow;
+}
+h3::before{
+    content: 'Must select';
+}
+h3::after{
+    content: '*';
+    color: red;
+}
